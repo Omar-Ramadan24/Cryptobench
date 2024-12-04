@@ -20,7 +20,7 @@ from cryptography.hazmat.primitives.asymmetric import padding, rsa, dsa, ec
 import os
 import time
 
-# Number of repetitions, omit the first set of results
+# Number of repetitions, you need to omit the first set of results
 num_repeats = 11
 
 for i in range(num_repeats):
